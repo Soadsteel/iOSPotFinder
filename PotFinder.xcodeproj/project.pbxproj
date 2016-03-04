@@ -13,6 +13,22 @@
 		A66C52FB1C7CFC2100555FC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66C52F91C7CFC2100555FC8 /* Main.storyboard */; };
 		A66C52FD1C7CFC2100555FC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A66C52FC1C7CFC2100555FC8 /* Assets.xcassets */; };
 		A66C53001C7CFC2100555FC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66C52FE1C7CFC2100555FC8 /* LaunchScreen.storyboard */; };
+		A66C53091C7D14C400555FC8 /* PotListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C53081C7D14C400555FC8 /* PotListTableViewController.m */; };
+		A66C530C1C7F6B6D00555FC8 /* PotMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C530B1C7F6B6D00555FC8 /* PotMapViewController.m */; };
+		A66C530F1C7F7B4700555FC8 /* PotDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C530E1C7F7B4700555FC8 /* PotDetailsViewController.m */; };
+		A66C53121C80CE9700555FC8 /* NewPotTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C53111C80CE9700555FC8 /* NewPotTableViewController.m */; };
+		A66C53401C8647E000555FC8 /* DalModels.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A66C533E1C8647E000555FC8 /* DalModels.xcdatamodeld */; };
+		A66C53451C86534D00555FC8 /* PotFinderDal.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C53441C86534D00555FC8 /* PotFinderDal.m */; };
+		A66C53B51C879EA700555FC8 /* Pot+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C53A21C879EA700555FC8 /* Pot+CoreDataProperties.m */; };
+		A66C53B61C879EA700555FC8 /* Pot.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C53A41C879EA700555FC8 /* Pot.m */; };
+		A66C53B71C879EA700555FC8 /* PotLocation+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C53A61C879EA700555FC8 /* PotLocation+CoreDataProperties.m */; };
+		A66C53B81C879EA700555FC8 /* PotLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C53A81C879EA700555FC8 /* PotLocation.m */; };
+		A66C53B91C879EA700555FC8 /* Crab+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C53AA1C879EA700555FC8 /* Crab+CoreDataProperties.m */; };
+		A66C53BA1C879EA700555FC8 /* Crab.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C53AC1C879EA700555FC8 /* Crab.m */; };
+		A66C53BB1C879EA700555FC8 /* PotCatch+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C53AE1C879EA700555FC8 /* PotCatch+CoreDataProperties.m */; };
+		A66C53BC1C879EA700555FC8 /* PotCatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C53B01C879EA700555FC8 /* PotCatch.m */; };
+		A66C53BD1C879EA700555FC8 /* PotEvent+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C53B21C879EA700555FC8 /* PotEvent+CoreDataProperties.m */; };
+		A66C53BE1C879EA700555FC8 /* PotEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C53B41C879EA700555FC8 /* PotEvent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +42,37 @@
 		A66C52FC1C7CFC2100555FC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A66C52FF1C7CFC2100555FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A66C53011C7CFC2100555FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A66C53071C7D14C400555FC8 /* PotListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PotListTableViewController.h; sourceTree = "<group>"; };
+		A66C53081C7D14C400555FC8 /* PotListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PotListTableViewController.m; sourceTree = "<group>"; };
+		A66C530A1C7F6B6D00555FC8 /* PotMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PotMapViewController.h; sourceTree = "<group>"; };
+		A66C530B1C7F6B6D00555FC8 /* PotMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PotMapViewController.m; sourceTree = "<group>"; };
+		A66C530D1C7F7B4700555FC8 /* PotDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PotDetailsViewController.h; sourceTree = "<group>"; };
+		A66C530E1C7F7B4700555FC8 /* PotDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PotDetailsViewController.m; sourceTree = "<group>"; };
+		A66C53101C80CE9700555FC8 /* NewPotTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPotTableViewController.h; sourceTree = "<group>"; };
+		A66C53111C80CE9700555FC8 /* NewPotTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewPotTableViewController.m; sourceTree = "<group>"; };
+		A66C533F1C8647E000555FC8 /* DalModels.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DalModels.xcdatamodel; sourceTree = "<group>"; };
+		A66C53431C86534D00555FC8 /* PotFinderDal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PotFinderDal.h; sourceTree = "<group>"; };
+		A66C53441C86534D00555FC8 /* PotFinderDal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PotFinderDal.m; sourceTree = "<group>"; };
+		A66C53A11C879EA700555FC8 /* Pot+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Pot+CoreDataProperties.h"; path = "untitled folder/Pot+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A66C53A21C879EA700555FC8 /* Pot+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Pot+CoreDataProperties.m"; path = "untitled folder/Pot+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A66C53A31C879EA700555FC8 /* Pot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pot.h; path = "untitled folder/Pot.h"; sourceTree = "<group>"; };
+		A66C53A41C879EA700555FC8 /* Pot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pot.m; path = "untitled folder/Pot.m"; sourceTree = "<group>"; };
+		A66C53A51C879EA700555FC8 /* PotLocation+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PotLocation+CoreDataProperties.h"; path = "untitled folder/PotLocation+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A66C53A61C879EA700555FC8 /* PotLocation+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PotLocation+CoreDataProperties.m"; path = "untitled folder/PotLocation+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A66C53A71C879EA700555FC8 /* PotLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PotLocation.h; path = "untitled folder/PotLocation.h"; sourceTree = "<group>"; };
+		A66C53A81C879EA700555FC8 /* PotLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PotLocation.m; path = "untitled folder/PotLocation.m"; sourceTree = "<group>"; };
+		A66C53A91C879EA700555FC8 /* Crab+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Crab+CoreDataProperties.h"; path = "untitled folder/Crab+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A66C53AA1C879EA700555FC8 /* Crab+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Crab+CoreDataProperties.m"; path = "untitled folder/Crab+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A66C53AB1C879EA700555FC8 /* Crab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Crab.h; path = "untitled folder/Crab.h"; sourceTree = "<group>"; };
+		A66C53AC1C879EA700555FC8 /* Crab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Crab.m; path = "untitled folder/Crab.m"; sourceTree = "<group>"; };
+		A66C53AD1C879EA700555FC8 /* PotCatch+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PotCatch+CoreDataProperties.h"; path = "untitled folder/PotCatch+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A66C53AE1C879EA700555FC8 /* PotCatch+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PotCatch+CoreDataProperties.m"; path = "untitled folder/PotCatch+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A66C53AF1C879EA700555FC8 /* PotCatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PotCatch.h; path = "untitled folder/PotCatch.h"; sourceTree = "<group>"; };
+		A66C53B01C879EA700555FC8 /* PotCatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PotCatch.m; path = "untitled folder/PotCatch.m"; sourceTree = "<group>"; };
+		A66C53B11C879EA700555FC8 /* PotEvent+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PotEvent+CoreDataProperties.h"; path = "untitled folder/PotEvent+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A66C53B21C879EA700555FC8 /* PotEvent+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PotEvent+CoreDataProperties.m"; path = "untitled folder/PotEvent+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A66C53B31C879EA700555FC8 /* PotEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PotEvent.h; path = "untitled folder/PotEvent.h"; sourceTree = "<group>"; };
+		A66C53B41C879EA700555FC8 /* PotEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PotEvent.m; path = "untitled folder/PotEvent.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +105,10 @@
 		A66C52EF1C7CFC2100555FC8 /* PotFinder */ = {
 			isa = PBXGroup;
 			children = (
+				A66C53421C86532200555FC8 /* Dal */,
 				A66C52F31C7CFC2100555FC8 /* AppDelegate.h */,
 				A66C52F41C7CFC2100555FC8 /* AppDelegate.m */,
-				A66C52F61C7CFC2100555FC8 /* ViewController.h */,
-				A66C52F71C7CFC2100555FC8 /* ViewController.m */,
+				A66C53141C80D14900555FC8 /* ViewControllers */,
 				A66C52F91C7CFC2100555FC8 /* Main.storyboard */,
 				A66C52FC1C7CFC2100555FC8 /* Assets.xcassets */,
 				A66C52FE1C7CFC2100555FC8 /* LaunchScreen.storyboard */,
@@ -77,6 +124,61 @@
 				A66C52F11C7CFC2100555FC8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A66C53141C80D14900555FC8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A66C52F61C7CFC2100555FC8 /* ViewController.h */,
+				A66C52F71C7CFC2100555FC8 /* ViewController.m */,
+				A66C53071C7D14C400555FC8 /* PotListTableViewController.h */,
+				A66C53081C7D14C400555FC8 /* PotListTableViewController.m */,
+				A66C530A1C7F6B6D00555FC8 /* PotMapViewController.h */,
+				A66C530B1C7F6B6D00555FC8 /* PotMapViewController.m */,
+				A66C530D1C7F7B4700555FC8 /* PotDetailsViewController.h */,
+				A66C530E1C7F7B4700555FC8 /* PotDetailsViewController.m */,
+				A66C53101C80CE9700555FC8 /* NewPotTableViewController.h */,
+				A66C53111C80CE9700555FC8 /* NewPotTableViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A66C53421C86532200555FC8 /* Dal */ = {
+			isa = PBXGroup;
+			children = (
+				A66C53641C8769AF00555FC8 /* Models */,
+				A66C53431C86534D00555FC8 /* PotFinderDal.h */,
+				A66C53441C86534D00555FC8 /* PotFinderDal.m */,
+				A66C533E1C8647E000555FC8 /* DalModels.xcdatamodeld */,
+			);
+			name = Dal;
+			sourceTree = "<group>";
+		};
+		A66C53641C8769AF00555FC8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A66C53A11C879EA700555FC8 /* Pot+CoreDataProperties.h */,
+				A66C53A21C879EA700555FC8 /* Pot+CoreDataProperties.m */,
+				A66C53A31C879EA700555FC8 /* Pot.h */,
+				A66C53A41C879EA700555FC8 /* Pot.m */,
+				A66C53A51C879EA700555FC8 /* PotLocation+CoreDataProperties.h */,
+				A66C53A61C879EA700555FC8 /* PotLocation+CoreDataProperties.m */,
+				A66C53A71C879EA700555FC8 /* PotLocation.h */,
+				A66C53A81C879EA700555FC8 /* PotLocation.m */,
+				A66C53A91C879EA700555FC8 /* Crab+CoreDataProperties.h */,
+				A66C53AA1C879EA700555FC8 /* Crab+CoreDataProperties.m */,
+				A66C53AB1C879EA700555FC8 /* Crab.h */,
+				A66C53AC1C879EA700555FC8 /* Crab.m */,
+				A66C53AD1C879EA700555FC8 /* PotCatch+CoreDataProperties.h */,
+				A66C53AE1C879EA700555FC8 /* PotCatch+CoreDataProperties.m */,
+				A66C53AF1C879EA700555FC8 /* PotCatch.h */,
+				A66C53B01C879EA700555FC8 /* PotCatch.m */,
+				A66C53B11C879EA700555FC8 /* PotEvent+CoreDataProperties.h */,
+				A66C53B21C879EA700555FC8 /* PotEvent+CoreDataProperties.m */,
+				A66C53B31C879EA700555FC8 /* PotEvent.h */,
+				A66C53B41C879EA700555FC8 /* PotEvent.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +251,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A66C53451C86534D00555FC8 /* PotFinderDal.m in Sources */,
 				A66C52F81C7CFC2100555FC8 /* ViewController.m in Sources */,
+				A66C53BA1C879EA700555FC8 /* Crab.m in Sources */,
+				A66C53BB1C879EA700555FC8 /* PotCatch+CoreDataProperties.m in Sources */,
+				A66C53B91C879EA700555FC8 /* Crab+CoreDataProperties.m in Sources */,
+				A66C53B81C879EA700555FC8 /* PotLocation.m in Sources */,
+				A66C53121C80CE9700555FC8 /* NewPotTableViewController.m in Sources */,
+				A66C53091C7D14C400555FC8 /* PotListTableViewController.m in Sources */,
+				A66C53BE1C879EA700555FC8 /* PotEvent.m in Sources */,
 				A66C52F51C7CFC2100555FC8 /* AppDelegate.m in Sources */,
+				A66C530C1C7F6B6D00555FC8 /* PotMapViewController.m in Sources */,
+				A66C53B51C879EA700555FC8 /* Pot+CoreDataProperties.m in Sources */,
 				A66C52F21C7CFC2100555FC8 /* main.m in Sources */,
+				A66C53401C8647E000555FC8 /* DalModels.xcdatamodeld in Sources */,
+				A66C53B71C879EA700555FC8 /* PotLocation+CoreDataProperties.m in Sources */,
+				A66C530F1C7F7B4700555FC8 /* PotDetailsViewController.m in Sources */,
+				A66C53BD1C879EA700555FC8 /* PotEvent+CoreDataProperties.m in Sources */,
+				A66C53B61C879EA700555FC8 /* Pot.m in Sources */,
+				A66C53BC1C879EA700555FC8 /* PotCatch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +420,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A66C533E1C8647E000555FC8 /* DalModels.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A66C533F1C8647E000555FC8 /* DalModels.xcdatamodel */,
+			);
+			currentVersion = A66C533F1C8647E000555FC8 /* DalModels.xcdatamodel */;
+			path = DalModels.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A66C52E51C7CFC2000555FC8 /* Project object */;
 }

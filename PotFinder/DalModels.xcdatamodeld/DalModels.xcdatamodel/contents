@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F1605" minimumToolsVersion="Xcode 7.0">
+    <entity name="Crab" representedClassName="Crab" syncable="YES">
+        <attribute name="isFemale" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isSoft" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isTooSmall" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="species" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="catch" maxCount="1" deletionRule="Nullify" destinationEntity="PotCatch" inverseName="crabs" inverseEntity="PotCatch" syncable="YES"/>
+    </entity>
+    <entity name="Pot" representedClassName="Pot" syncable="YES">
+        <attribute name="baitDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="buoyDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lineWeights" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="potDepth" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="potDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="potName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ropeLength" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="catch" maxCount="1" deletionRule="Nullify" destinationEntity="PotCatch" inverseName="pot" inverseEntity="PotCatch" syncable="YES"/>
+        <relationship name="events" toMany="YES" minCount="1" maxCount="2" deletionRule="Nullify" destinationEntity="PotEvent" inverseName="pot" inverseEntity="PotEvent" syncable="YES"/>
+        <relationship name="location" maxCount="1" deletionRule="Nullify" destinationEntity="PotLocation" inverseName="pot" inverseEntity="PotLocation" syncable="YES"/>
+    </entity>
+    <entity name="PotCatch" representedClassName="PotCatch" syncable="YES">
+        <attribute name="containedStarfish" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="femaleCount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="keeperCount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="softCount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="tooSmallCount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="crabs" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Crab" inverseName="catch" inverseEntity="Crab" syncable="YES"/>
+        <relationship name="pot" maxCount="1" deletionRule="Nullify" destinationEntity="Pot" inverseName="catch" inverseEntity="Pot" syncable="YES"/>
+    </entity>
+    <entity name="PotEvent" representedClassName="PotEvent" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="eventType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="pot" maxCount="1" deletionRule="Nullify" destinationEntity="Pot" inverseName="events" inverseEntity="Pot" syncable="YES"/>
+    </entity>
+    <entity name="PotLocation" representedClassName="PotLocation" syncable="YES">
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="pot" maxCount="1" deletionRule="Nullify" destinationEntity="Pot" inverseName="location" inverseEntity="Pot" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Pot" positionX="-54" positionY="-9" width="128" height="28"/>
+        <element name="PotEvent" positionX="-65" positionY="261" width="128" height="88"/>
+        <element name="PotLocation" positionX="-227" positionY="-9" width="128" height="88"/>
+        <element name="PotCatch" positionX="106" positionY="-9" width="128" height="148"/>
+        <element name="Crab" positionX="279" positionY="-9" width="128" height="133"/>
+    </elements>
+</model>
